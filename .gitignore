@@ -1,0 +1,14 @@
+# No subir entorno virtual
+venv/
+.venv/
+
+# No subir variables sensibles
+.env
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
