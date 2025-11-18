@@ -142,7 +142,7 @@ else:
             final_prompt = f"Responde con un tono creativo, usando metáforas pero siendo comprensible: {user_prompt}"
 
         try:
-            model = genai.GenerativeModel("gemini-1.5-flash")
+            model = genai.GenerativeModel("gemini-2.5-flash")
             with st.spinner("Generando respuesta..."):
                 result = model.generate_content(final_prompt)
 
